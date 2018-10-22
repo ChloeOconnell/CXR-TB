@@ -8,7 +8,8 @@ Clinical applicability interview notes, week of 10/22/2018
 Overall, one big thing to figure out will be when to release/deploy this should we get it working satisfactorily. It'll be a question of balancing the good it can do (i.e. faster diagnosis/faster treatment for pts with HIV in the developing world) with potential harm (misclassification/incorrect diagnosis). This will be something that we can ask for help on from our clinical partners in South Africa and elsewhere - if we get a good enough model, we can then give it to them for prospective validation. 
 ## How to proceed
 - Can predict cavitation and lymphadenopathy – both are variables in Niel’s dataset. Should start with Niel's dataset bc that'll be easier, and then can eventually move to Tom's
-- Later, predict ground truth (i.e. PCP vs. TB vs. PNA)
+- For now, don't need to worry about patients with >1 disease process because we're just predicting radiological findings
+- Later, predict ground truth (i.e. PCP vs. TB vs. PNA) - will likely need to exclude pts with multiple processes
 - Once we have a model, we can explore whether clinical info (i.e. O2 sat, etc.) helps the model performance
 - Final step: Evaluate cases in which the model was wrong. Could be that sputum culture was terrible, but clear evidence on CXR
 ## Data processing / photo of CXR issue 
