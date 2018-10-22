@@ -23,3 +23,7 @@ Overall, one big thing to figure out will be when to release/deploy this should 
 # Nathan Lo, Ph.D. (has served as an advisor on the World Health Organization: Neglected Tropical Diseases panel)
 Informal interview - main topic of discussion was variable selection. For maximal clinical utility, it will be interesting to compare accuracies with and without clinical info (i.e. for PCP, O2 sat will likely be very important, but can also sometimes be difficult to obtain in a low-resource setting. As a result, getting a quantitative idea of how much it helps the model can help guide whether or not to include it)
 
+## Techniques used from "Talking to Humans"
+Follow Your Nose and Drill Down
+Do Your Interviews in Person
+Talk to One Person at a Time
